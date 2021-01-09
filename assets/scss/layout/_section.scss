@@ -1,0 +1,66 @@
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+
+    &__pro {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+&__pro__image{
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+
+
+}
+&__pro_name{
+    padding-left: 20px;
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+}
+
+.profile__pro_name h2{
+    font-size: 20px;
+    font-family:$montserrat;
+    font-weight:bold;
+
+}
+
+.profile__pro_name p{
+    font-size: 14px;
+    color:$gray;
+    margin-bottom: 0;
+    font-family:$montserrat;
+}
+
+
+.profile__button{
+  
+    margin-top: 1px;
+
+   &__m {
+    background-color: $coral;
+    border: none;
+    padding: 10px 15px;  
+    color:#fff;
+    font-family:$montserrat ;
+   }
+   
+   &__s{
+    background-color: $azulito;
+    border: none;
+    padding: 10px 15px;  
+    color:#fff;
+    font-family:$montserrat ;
+   }
+}

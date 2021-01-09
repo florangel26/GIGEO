@@ -1,0 +1,34 @@
+
+.main_container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    &-item {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.main_container-item{
+
+    & h3{
+        font-family: $opensans;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    & p{
+        font-family: $opensans;
+        color: rgb(156, 154, 154);
+
+
+
+    }
+}
+.h2{
+    font-family:$montserrat;
+    font-size: bold;
+    
+}
